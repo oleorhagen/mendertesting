@@ -20,4 +20,4 @@ test:check-commits:
     - git clone http://github.com/mendersoftware/mendertesting /tmp/mendertesting
   script:
     # Check commit compliance.
-    - /tmp/mendertesting/check_commits.sh
+    - /tmp/mendertesting/check_commits.sh ${MENDERTESTING_ARGS}
